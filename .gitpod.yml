@@ -1,0 +1,8 @@
+tasks:
+  - name: Install Bun
+    before: |
+      curl -fsSL https://bun.sh/install | bash
+      source /home/gitpod/.bashrc
+
+image:
+  file: .gitpod.Dockerfile
