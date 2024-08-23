@@ -9,4 +9,4 @@ image:
 
 gitConfig:
   user.name: "Luan NGUYEN"
-  user.email: ${GIT_COMMITTER_EMAIL}  
+  user.email: "${GIT_COMMITTER_EMAIL}"
