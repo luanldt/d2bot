@@ -1,15 +1,19 @@
 {
   "name": "d2bot",
   "module": "index.ts",
-  "type": "module",
+  "scripts": {
+    "serve": "nodemon"
+  },
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/node-telegram-bot-api": "^0.64.7"
+    "nodemon": "^3.1.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
+  "type": "module",
   "dependencies": {
-    "node-telegram-bot-api": "^0.66.0"
+    "axios": "^1.7.4",
+    "telegraf": "^4.16.3"
   }
 }
